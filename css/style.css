@@ -36,6 +36,7 @@
 	text-transform: uppercase;
 	font-size: 75%;
 	color: #FFFFFF;
+	border-bottom:none;
 }
 
 .init-nav li {
@@ -300,9 +301,10 @@
 	.image {
 		border: 0;
 		position: relative;
+		width: 358px;
 	}
 
-		.image:before {
+		/*.image:before {
 			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
@@ -310,7 +312,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		}*/
 
 		.image.fit {
 			display: block;
